@@ -1,0 +1,11 @@
+# Core dependencies — agent, vector store, API, tests.
+# Install: python -m venv .venv && .venv/bin/pip install -r requirements.txt
+# ML training deps (torch etc.) are in requirements-ml.txt, installed separately.
+fastapi==0.162.5
+uvicorn==0.54.0
+httpx==0.28.1
+pydantic==2.14.3
+pytest==9.2.0
+chromadb==1.5.9
+langgraph==1.2.21
+langchain-core==1.8.0
