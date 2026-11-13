@@ -1,0 +1,43 @@
+{
+  "base_model": "google/bert_uncased_L-2_H-128_A-2",
+  "task": "binary rule-risk classification: risky vs safe",
+  "train_n": 240,
+  "test_n": 60,
+  "epochs": 3,
+  "batch_size": 8,
+  "lora_r": 8,
+  "lora_alpha": 16,
+  "majority_baseline": {
+    "accuracy": 0.5,
+    "n": 60,
+    "risky_precision": 0.5,
+    "risky_recall": 1.0,
+    "risky_f1": 0.6667,
+    "safe_precision": 0.0,
+    "safe_recall": 0.0,
+    "safe_f1": 0.0,
+    "macro_f1": 0.3333
+  },
+  "base_untrained_head": {
+    "accuracy": 0.5833,
+    "n": 60,
+    "risky_precision": 0.7273,
+    "risky_recall": 0.2667,
+    "risky_f1": 0.3902,
+    "safe_precision": 0.551,
+    "safe_recall": 0.9,
+    "safe_f1": 0.6835,
+    "macro_f1": 0.5369
+  },
+  "lora_fine_tuned": {
+    "accuracy": 0.9333,
+    "n": 60,
+    "risky_precision": 0.8824,
+    "risky_recall": 1.0,
+    "risky_f1": 0.9375,
+    "safe_precision": 1.0,
+    "safe_recall": 0.8667,
+    "safe_f1": 0.9286,
+    "macro_f1": 0.933
+  }
+}
