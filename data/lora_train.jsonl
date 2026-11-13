@@ -1,0 +1,240 @@
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server the database server", "label": "safe"}
+{"text": "Allow SSH port 22 from a single operator host 192.168.1.0/24 to 192.168.1.10", "label": "safe"}
+{"text": "Allow MongoDB port 27017 from the whole internet to 192.168.1.10", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.0.0.0/8 to a public web server 10.0.1.5", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host a single trusted host to 10.0.2.10", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.1.2.3 to a public web server 192.168.1.10", "label": "safe"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver the database server", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to 10.0.2.10", "label": "safe"}
+{"text": "Allow SSH port 22 from a single operator host 203.0.113.10 to the web server", "label": "safe"}
+{"text": "Deny all traffic from 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow MySQL port 3306 from 0.0.0.0/0 to 10.0.2.10", "label": "risky"}
+{"text": "Open port 27017 to the whole internet for 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow DNS port 53 from 10.0.0.0/8 to a named resolver the web server", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Deny all traffic from 203.0.113.10 to 10.0.1.5", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow remote desktop port 3389 from anywhere to 10.0.1.5", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.0.0.0/8 to 10.0.1.5", "label": "safe"}
+{"text": "Allow MySQL port 3306 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver 192.168.1.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow MySQL port 3306 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow database access from the internet to 192.168.1.10", "label": "risky"}
+{"text": "Deny remote desktop port 3389 from 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.1.2.3 to 10.0.1.5", "label": "safe"}
+{"text": "Allow MongoDB port 27017 from the whole internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.1.2.3 to a public web server the web server", "label": "safe"}
+{"text": "Allow DNS port 53 from 10.1.2.3 to a named resolver 10.0.2.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow SSH port 22 from a single operator host 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow database access from the internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow DNS port 53 from 10.0.0.0/8 to a named resolver the web server", "label": "safe"}
+{"text": "Allow SSH port 22 from the whole internet to the web server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 10.0.2.10", "label": "risky"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver 10.0.1.5", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Deny SSH port 22 from the internet to 10.0.1.5", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet a single trusted host to 10.0.2.10", "label": "safe"}
+{"text": "Deny all traffic from 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server the web server", "label": "safe"}
+{"text": "Allow all traffic from the whole internet to the database server", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.1.2.3 to the web server", "label": "safe"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server 10.0.1.5", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from the whole internet to the database server", "label": "risky"}
+{"text": "Allow Redis port 6379 from the whole internet to the web server", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Deny SSH port 22 from the internet to the database server", "label": "safe"}
+{"text": "Allow all traffic from anywhere to 10.0.2.10", "label": "risky"}
+{"text": "Open port 6379 to the whole internet for 10.0.1.5", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.1.5", "label": "safe"}
+{"text": "Allow all traffic from the whole internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow all traffic from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from anywhere to 192.168.1.10", "label": "risky"}
+{"text": "Deny all traffic from 10.1.2.3 to 10.0.2.10", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from anywhere to 10.0.1.5", "label": "risky"}
+{"text": "Allow SSH port 22 from anywhere to 10.0.1.5", "label": "risky"}
+{"text": "Allow database access from the internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow all traffic from anywhere to the database server", "label": "risky"}
+{"text": "Allow HTTPS from an internal network 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Open port 22 to the whole internet for 192.168.1.10", "label": "risky"}
+{"text": "Deny all traffic from 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow remote desktop port 3389 from anywhere to 192.168.1.10", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from anywhere to 10.0.2.10", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow MySQL port 3306 from the whole internet to the database server", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow all traffic from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow HTTPS from an internal network 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow database access from the internet to the database server", "label": "risky"}
+{"text": "Deny all traffic from 192.168.1.0/24 to the database server", "label": "safe"}
+{"text": "Allow Redis port 6379 from the whole internet to the database server", "label": "risky"}
+{"text": "Deny all traffic from 10.1.2.3 to 10.0.2.10", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.2.10", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow SSH port 22 from a single operator host 10.0.0.0/8 to the database server", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 10.1.2.3 to 10.0.1.5", "label": "safe"}
+{"text": "Allow SSH port 22 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver 192.168.1.10", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 203.0.113.10 to 10.0.2.10", "label": "safe"}
+{"text": "Allow MySQL port 3306 from 0.0.0.0/0 to 10.0.2.10", "label": "risky"}
+{"text": "Allow SSH port 22 from anywhere to 192.168.1.10", "label": "risky"}
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow Redis port 6379 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow remote desktop port 3389 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow HTTPS from an internal network 10.1.2.3 to the web server", "label": "safe"}
+{"text": "Open port 3389 to the whole internet for the database server", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow Redis port 6379 from the whole internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow DNS port 53 from 10.0.0.0/8 to a named resolver the web server", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 203.0.113.10 to 10.0.2.10", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 203.0.113.10 to the database server", "label": "safe"}
+{"text": "Allow HTTPS port 443 from 10.0.0.0/8 to a public web server the web server", "label": "safe"}
+{"text": "Allow SSH port 22 from anywhere to the web server", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.1.2.3 to a public web server 10.0.2.10", "label": "safe"}
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Deny SSH port 22 from the internet to the database server", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 10.1.2.3 to the database server", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet a single trusted host to the web server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet a single trusted host to the web server", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.1.5", "label": "safe"}
+{"text": "Deny all traffic from 10.0.0.0/8 to 192.168.1.10", "label": "safe"}
+{"text": "Open port 3389 to the whole internet for the web server", "label": "risky"}
+{"text": "Allow remote desktop port 3389 from anywhere to 10.0.2.10", "label": "risky"}
+{"text": "Open port 3306 to the whole internet for the database server", "label": "risky"}
+{"text": "Deny remote desktop port 3389 from 203.0.113.10 to the web server", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from anywhere to the web server", "label": "risky"}
+{"text": "Allow all traffic from the whole internet to the database server", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from anywhere to 10.0.2.10", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Deny all traffic from 192.168.1.0/24 to 10.0.2.10", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow SSH port 22 from a single operator host 192.168.1.0/24 to 10.0.2.10", "label": "safe"}
+{"text": "Deny all traffic from a single trusted host to the web server", "label": "safe"}
+{"text": "Deny all traffic from 192.168.1.0/24 to the database server", "label": "safe"}
+{"text": "Open port 3306 to the whole internet for 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet a single trusted host to the database server", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 10.1.2.3 to the web server", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow database access from the internet to the web server", "label": "risky"}
+{"text": "Deny all traffic from 10.1.2.3 to 10.0.1.5", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host a single trusted host to the database server", "label": "safe"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server 10.0.1.5", "label": "safe"}
+{"text": "Allow SSH port 22 from anywhere to 10.0.2.10", "label": "risky"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to 10.0.2.10", "label": "risky"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver 10.0.2.10", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 192.168.1.0/24 to 10.0.2.10", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 10.1.2.3 to 192.168.1.10", "label": "safe"}
+{"text": "Deny all traffic from a single trusted host to 192.168.1.10", "label": "safe"}
+{"text": "Open port 22 to the whole internet for the database server", "label": "risky"}
+{"text": "Allow DNS port 53 from a single trusted host to a named resolver 10.0.1.5", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 203.0.113.10 to 10.0.2.10", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.0.0.0/8 to the database server", "label": "safe"}
+{"text": "Allow DNS port 53 from 192.168.1.0/24 to a named resolver 192.168.1.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to the web server", "label": "safe"}
+{"text": "Allow remote desktop port 3389 from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from anywhere to 192.168.1.10", "label": "risky"}
+{"text": "Deny remote desktop port 3389 from a single trusted host to 10.0.1.5", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.2.10", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.2.10", "label": "safe"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow Redis port 6379 from the whole internet to 192.168.1.10", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to the database server", "label": "safe"}
+{"text": "Allow MySQL port 3306 from the whole internet to the web server", "label": "risky"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow all traffic from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 192.168.1.0/24 to the database server", "label": "safe"}
+{"text": "Open port 6379 to the whole internet for the database server", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow database access from the internet to the database server", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.0.0.0/8 to the database server", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet 10.1.2.3 to 10.0.2.10", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 10.0.0.0/8 to 192.168.1.10", "label": "safe"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet 203.0.113.10 to the database server", "label": "safe"}
+{"text": "Allow HTTP port 80 from an internal subnet 192.168.1.0/24 to the database server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server 192.168.1.10", "label": "safe"}
+{"text": "Allow SSH port 22 from a single operator host 203.0.113.10 to the database server", "label": "safe"}
+{"text": "Allow all traffic from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Allow all traffic from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 192.168.1.0/24 to a public web server the database server", "label": "safe"}
+{"text": "Allow DNS port 53 from 203.0.113.10 to a named resolver 10.0.2.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 203.0.113.10 to 10.0.2.10", "label": "safe"}
+{"text": "Open port 27017 to the whole internet for the web server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to 10.0.2.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to 10.0.1.5", "label": "safe"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to the database server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow SSH port 22 from a single operator host 192.168.1.0/24 to 10.0.2.10", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.0.0.0/8 to a public web server 192.168.1.10", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to the database server", "label": "risky"}
+{"text": "Allow database access from the internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow HTTPS port 443 from 10.1.2.3 to a public web server 10.0.1.5", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from the whole internet to 192.168.1.10", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow DNS port 53 from 10.1.2.3 to a named resolver 10.0.1.5", "label": "safe"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server 10.0.2.10", "label": "safe"}
+{"text": "Allow DNS port 53 from a single trusted host to a named resolver 10.0.1.5", "label": "safe"}
+{"text": "Allow HTTPS from an internal network 203.0.113.10 to 10.0.1.5", "label": "safe"}
+{"text": "Deny remote desktop port 3389 from 192.168.1.0/24 to 192.168.1.10", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to the database server", "label": "safe"}
+{"text": "Allow HTTPS port 443 from a single trusted host to a public web server the web server", "label": "safe"}
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Deny SSH port 22 from the internet to 10.0.2.10", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet a single trusted host to 10.0.1.5", "label": "safe"}
+{"text": "Open port 6379 to the whole internet for 192.168.1.10", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from the whole internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow SSH port 22 from 0.0.0.0/0 to the web server", "label": "risky"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow remote desktop port 3389 from the whole internet to 10.0.2.10", "label": "risky"}
+{"text": "Allow SSH port 22 from anywhere to the database server", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from the whole internet to the database server", "label": "risky"}
+{"text": "Allow SSH port 22 from a single operator host a single trusted host to the database server", "label": "safe"}
+{"text": "Allow SSH port 22 from the whole internet to 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to 192.168.1.10", "label": "safe"}
+{"text": "Open port 22 to the whole internet for the web server", "label": "risky"}
+{"text": "Allow MongoDB port 27017 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
+{"text": "Deny SSH port 22 from the internet to 10.0.1.5", "label": "safe"}
+{"text": "Allow PostgreSQL port 5432 from a single app host 10.0.0.0/8 to 192.168.1.10", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow Redis port 6379 from 0.0.0.0/0 to 10.0.2.10", "label": "risky"}
+{"text": "Allow HTTP port 80 from an internal subnet 192.168.1.0/24 to the web server", "label": "safe"}
+{"text": "Allow any source to any destination on any port", "label": "risky"}
+{"text": "Allow all traffic from 0.0.0.0/0 to 10.0.1.5", "label": "risky"}
+{"text": "Allow PostgreSQL port 5432 from 0.0.0.0/0 to 192.168.1.10", "label": "risky"}
