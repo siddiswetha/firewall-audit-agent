@@ -1,0 +1,303 @@
+{
+  "n_queries": 12,
+  "embedding_recall@3": 0.625,
+  "embedding_recall@5": 0.875,
+  "keyword_recall@3": 0.6667,
+  "keyword_recall@5": 0.75,
+  "per_query": [
+    {
+      "query": "Is allowing SSH from the internet risky?",
+      "relevant": [
+        "G02-open-admin-ports",
+        "G03-broad-source"
+      ],
+      "embedding_retrieved": [
+        "G02-open-admin-ports",
+        "G10-database-ports",
+        "G05-egress",
+        "G03-broad-source",
+        "G07-default-deny"
+      ],
+      "keyword_retrieved": [
+        "G02-open-admin-ports",
+        "G03-broad-source",
+        "G05-egress",
+        "G10-database-ports"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 1.0,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "Should I open remote desktop to everyone?",
+      "relevant": [
+        "G02-open-admin-ports",
+        "G03-broad-source"
+      ],
+      "embedding_retrieved": [
+        "G02-open-admin-ports",
+        "G01-least-privilege",
+        "G13-zero-trust",
+        "G05-egress",
+        "G04-any-any"
+      ],
+      "keyword_retrieved": [
+        "G02-open-admin-ports",
+        "G07-default-deny"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 0.5,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 0.5
+    },
+    {
+      "query": "Is a rule that allows any source to any destination safe?",
+      "relevant": [
+        "G04-any-any",
+        "G01-least-privilege"
+      ],
+      "embedding_retrieved": [
+        "G04-any-any",
+        "G07-default-deny",
+        "G05-egress",
+        "G03-broad-source",
+        "G01-least-privilege"
+      ],
+      "keyword_retrieved": [
+        "G04-any-any",
+        "G01-least-privilege",
+        "G02-open-admin-ports",
+        "G03-broad-source",
+        "G07-default-deny"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 1.0,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "Can a database be reached from the internet on port 5432?",
+      "relevant": [
+        "G10-database-ports",
+        "G02-open-admin-ports"
+      ],
+      "embedding_retrieved": [
+        "G10-database-ports",
+        "G03-broad-source",
+        "G11-dns-and-essential-services",
+        "G02-open-admin-ports",
+        "G05-egress"
+      ],
+      "keyword_retrieved": [
+        "G10-database-ports",
+        "G03-broad-source",
+        "G02-open-admin-ports",
+        "G12-review-and-expiry",
+        "G01-least-privilege"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 1.0,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "What is the least privilege principle for firewall rules?",
+      "relevant": [
+        "G01-least-privilege",
+        "G07-default-deny"
+      ],
+      "embedding_retrieved": [
+        "G01-least-privilege",
+        "G09-change-management",
+        "G04-any-any",
+        "G07-default-deny",
+        "G05-egress"
+      ],
+      "keyword_retrieved": [
+        "G01-least-privilege",
+        "G08-segmentation",
+        "G04-any-any",
+        "G09-change-management",
+        "G12-review-and-expiry"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 0.5
+    },
+    {
+      "query": "Should outbound traffic be controlled as well as inbound?",
+      "relevant": [
+        "G05-egress",
+        "G06-logging-monitoring"
+      ],
+      "embedding_retrieved": [
+        "G05-egress",
+        "G01-least-privilege",
+        "G07-default-deny",
+        "G04-any-any",
+        "G09-change-management"
+      ],
+      "keyword_retrieved": [
+        "G05-egress",
+        "G01-least-privilege",
+        "G04-any-any",
+        "G07-default-deny"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 0.5,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 0.5
+    },
+    {
+      "query": "Why log firewall rules and monitor denied connections?",
+      "relevant": [
+        "G06-logging-monitoring",
+        "G05-egress"
+      ],
+      "embedding_retrieved": [
+        "G06-logging-monitoring",
+        "G05-egress",
+        "G09-change-management",
+        "G12-review-and-expiry",
+        "G04-any-any"
+      ],
+      "keyword_retrieved": [
+        "G05-egress",
+        "G06-logging-monitoring",
+        "G01-least-privilege",
+        "G04-any-any",
+        "G08-segmentation"
+      ],
+      "embedding_recall@3": 1.0,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 1.0,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "What does default deny mean?",
+      "relevant": [
+        "G07-default-deny",
+        "G01-least-privilege"
+      ],
+      "embedding_retrieved": [
+        "G07-default-deny",
+        "G06-logging-monitoring",
+        "G03-broad-source",
+        "G01-least-privilege",
+        "G04-any-any"
+      ],
+      "keyword_retrieved": [
+        "G07-default-deny",
+        "G01-least-privilege",
+        "G08-segmentation",
+        "G09-change-management"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 1.0,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "How should a network be segmented?",
+      "relevant": [
+        "G08-segmentation",
+        "G13-zero-trust"
+      ],
+      "embedding_retrieved": [
+        "G08-segmentation",
+        "G13-zero-trust",
+        "G01-least-privilege",
+        "G07-default-deny",
+        "G09-change-management"
+      ],
+      "keyword_retrieved": [
+        "G01-least-privilege",
+        "G03-broad-source",
+        "G06-logging-monitoring",
+        "G08-segmentation",
+        "G10-database-ports"
+      ],
+      "embedding_recall@3": 1.0,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 0.0,
+      "keyword_recall@5": 0.5
+    },
+    {
+      "query": "How often should firewall rules be reviewed and when do they expire?",
+      "relevant": [
+        "G09-change-management",
+        "G12-review-and-expiry"
+      ],
+      "embedding_retrieved": [
+        "G12-review-and-expiry",
+        "G09-change-management",
+        "G01-least-privilege",
+        "G04-any-any",
+        "G06-logging-monitoring"
+      ],
+      "keyword_retrieved": [
+        "G09-change-management",
+        "G01-least-privilege",
+        "G06-logging-monitoring",
+        "G04-any-any",
+        "G05-egress"
+      ],
+      "embedding_recall@3": 1.0,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 0.5
+    },
+    {
+      "query": "Is MySQL port 3306 safe to expose publicly?",
+      "relevant": [
+        "G10-database-ports",
+        "G03-broad-source"
+      ],
+      "embedding_retrieved": [
+        "G10-database-ports",
+        "G02-open-admin-ports",
+        "G05-egress",
+        "G03-broad-source",
+        "G04-any-any"
+      ],
+      "keyword_retrieved": [
+        "G10-database-ports",
+        "G01-least-privilege",
+        "G02-open-admin-ports",
+        "G03-broad-source",
+        "G04-any-any"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 1.0,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 1.0
+    },
+    {
+      "query": "What is zero trust for internal network traffic?",
+      "relevant": [
+        "G13-zero-trust",
+        "G08-segmentation"
+      ],
+      "embedding_retrieved": [
+        "G13-zero-trust",
+        "G03-broad-source",
+        "G05-egress",
+        "G07-default-deny",
+        "G04-any-any"
+      ],
+      "keyword_retrieved": [
+        "G13-zero-trust",
+        "G01-least-privilege",
+        "G03-broad-source",
+        "G07-default-deny",
+        "G04-any-any"
+      ],
+      "embedding_recall@3": 0.5,
+      "embedding_recall@5": 0.5,
+      "keyword_recall@3": 0.5,
+      "keyword_recall@5": 0.5
+    }
+  ]
+}
