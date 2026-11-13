@@ -1,0 +1,3 @@
+# Do not expose admin ports to the internet
+
+Administrative services such as SSH on port 22 and remote desktop on port 3389 are frequent targets for automated login attempts. Exposing them to the whole internet greatly increases the chance of a brute-force attempt succeeding if a credential is weak or reused. Reach admin services only from a small set of trusted addresses, through a VPN or bastion host, with strong authentication. If an admin port must be reachable, restrict the source, log every attempt, and alert on repeated failures. An allow rule for port 22 or 3389 from 0.0.0.0/0 should be treated as high risk until it is narrowed or removed.
