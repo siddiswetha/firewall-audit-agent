@@ -1,0 +1,9 @@
+# ML training dependencies — LoRA fine-tuning only.
+# Install torch (CPU) first, then this file:
+#   .venv/bin/pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   .venv/bin/pip install -r requirements-ml.txt
+torch==2.15.0+cpu
+transformers==5.22.2
+peft==0.21.2
+accelerate==1.15.0
+sentencepiece==0.2.3
